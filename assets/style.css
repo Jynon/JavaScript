@@ -1,0 +1,55 @@
+.nav-container{
+    background-color: rgb(206, 203, 203);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+input {
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+button {
+    background-color: rgb(153, 168, 87);
+    width: 200px;
+    margin-left: 20px;
+}
+button:hover {
+    background-color: rgb(41, 136, 104);
+}
+.btn {
+    justify-content: center;
+}
+.main-wrap{
+    width: 100%;
+    height: auto;
+    background-color: rgb(180, 175, 175);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-gap: 5px;
+    align-content: center;
+    justify-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    min-width: 100px;
+    border: 1px solid rgb(228, 225, 225);
+    border-radius: 10px;
+}
+.buzz {
+    background-color: rgb(76, 76, 243);
+}
+.fizz {
+    background-color: rgb(233, 109, 185);
+}
+.fizzbuzz {
+    background-color: brown;
+}

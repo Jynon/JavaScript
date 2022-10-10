@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive</title>
+    <link rel="stylesheet" href="assets\style.css">
+</head>
+<body> 
+    <div class="nav-container">
+        <label>Start Value</label>
+        <input type="number" name="field" id="minInput" min="1" max="99">
+        <label>End Value</label>
+        <input type="number" name="field" id="maxInput" min="2" max="100">
+        <button type="submit" id="generate">Generate Div`s</button>
+        <button type="submit" id="clear">Clear Div`s</button>
+        <div class="btn">
+            <button type="submit" id="fizz">FIZZ</button>
+            <button type="submit" id="buzz">BUZZ</button>
+            <button type="submit" id="fizzbuzz">FIZZBUZZ</button>
+        </div>
+    </div>
+    <div class="main-wrap"></div>
+    <script src="assets\main.js"></script>
+</body>
+</html>
