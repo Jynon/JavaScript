@@ -6,6 +6,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    row-gap: 10px;
 }
 input {
     border-radius: 5px;
@@ -19,9 +20,6 @@ button {
 }
 button:hover {
     background-color: rgb(41, 136, 104);
-}
-.btn {
-    justify-content: center;
 }
 .main-wrap{
     width: 100%;
@@ -52,4 +50,10 @@ button:hover {
 }
 .fizzbuzz {
     background-color: brown;
+}
+.hide {
+    display: none;
+}
+.on {
+    display: grid;
 }
